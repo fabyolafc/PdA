@@ -1,0 +1,26 @@
+main {
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+p {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+button {
+    border: 0;
+    background-color: brown;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+}
