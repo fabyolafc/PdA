@@ -51,7 +51,7 @@ class Controller {
     const { id } = req.params;
     try {
       await this.entidadeService.excluiRegistro(Number(id));
-      return res.status(204).json({ mensagem: `id ${id} deletado` });
+      return res.status(200).json({ mensagem: `id ${id} deletado` });
     } catch (error) {
       res.status(500).json({ mensagem: 'Erro ao excluir o registro' });
     }
