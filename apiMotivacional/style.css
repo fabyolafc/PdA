@@ -1,0 +1,45 @@
+/* RESET CSS personalizado */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#conselho {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+#container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* CARD */
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  border-radius: 8px;
+}
